@@ -18,7 +18,7 @@ This Bash script does the following:
 - Copy the script into the root of your project
 - Adjust settings, line 3 to 7
 - Create a run configuration for the script
-- Create a "Mono Remote" debug configuration (port number must match)
+- Create a "Mono Remote" debug configuration (port number must match, check "Listen for incoming connections")
 
 ## Debug
 
