@@ -1,3 +1,5 @@
+**Contributions are welcome!**
+
 # RiderRemoteDebug
 
 _One-click deploy and debug a .Net executable on a remote machine (almost)._
@@ -33,7 +35,7 @@ This Bash script does the following:
 - integrate with Rider's `Debugger/Remote debug`
 
 
-*Contributions are most welcome*
+
 
 
 
