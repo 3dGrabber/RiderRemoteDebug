@@ -2,7 +2,7 @@
 
 _One-click deploy and debug a .Net executable on a remote machine (almost)._
 
-Remote debugging with Rider is possible, but cumbersome. You need to manually upload the binaries, run them and then attach your local debugger to the remote process.
+Remote debugging with Rider is possible, but cumbersome. You need to manually upload the binaries, run them and then attach your local debugger to the remote process.  
 The goal of this project is to be able to just hit alt-F5 and start debugging.
 
 This Bash script does the following:
