@@ -1,6 +1,6 @@
 **Contributions are welcome!**
 
-# RiderRemoteDebug
+## RiderRemoteDebug
 
 _One-click deploy and debug a .Net executable on a remote machine (almost)._
 
@@ -13,26 +13,27 @@ This Bash script does the following:
 - open an ssh tunnel (no need for port forwarding and whatnot)
 - start and connect the remote debuggee to the local IDE
 
-# Setup
+## Setup
 
 - Copy the script into the root of your project
 - Adjust settings, line 3 to 7
 - Create a run configuration for the script
 - Create a "Mono Remote" debug configuration (port number must match)
 
-# Debug
+## Debug
 
 1. Run "Mono Remote"
 2. Run "RiderRemoteDebug"
 
-# Possible Improvements
+## Possible Improvements
 
-- Find a way to run "Mono Remote" & "RiderRemoteDebug" at once
+- find a way to run "Mono Remote" & "RiderRemoteDebug" at once
 - .Net Core support
-- Create a standalone Run configuration with UI to fill in `remote_host`, `remote_path` etc.
+- create a standalone Run configuration with UI to fill in `remote_host`, `remote_path` etc.
 - Windows support (rsync?)
 - support for ssh key files/passwords
 - integrate with Rider's `Debugger/Remote debug`
+- when the session is aborted locally, the remote debug session stays alive, waiting. Find a way to avoid that.
 
 
 
